@@ -1,0 +1,86 @@
+
+<html>
+<style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+   background-color: pink;
+}
+input[type=text], input[type=password],select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+     font-family: courier;
+
+}
+h1 {
+    color:black ;
+    font-family: courier;
+}
+.container {
+    margin: auto;
+    display: block;
+    width: 40%;
+    border: 3px solid grey;
+    border-radius: 25px;
+    padding: 10px;
+    top: 50%;
+     font-family: courier;
+}
+input[type=submit]{
+
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+   font-family:Courier New;
+   background-color: pink;
+
+}
+</style>
+<body background="1.png">
+<form action="doclogin.php" method ="POST">
+<div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required><br>
+
+
+
+<button class="button" type="button" onclick="openWin()"><strong>Submit<strong></button>
+<button class="button" type="button" onclick="openWin1()"><strong>Cancel<strong></button><br>
+<table>
+<tr>
+<td>
+</td>
+<td>
+
+ </td>
+</tr>
+</table>
+  </div>
+</form>
+<script>
+
+function openWin() {
+    window.open("1.html");
+}
+function openWin1() {
+    window.open("main.html");
+}
+</script>
+
+</html>
