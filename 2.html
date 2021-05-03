@@ -1,0 +1,130 @@
+<html>
+<style>
+.container{
+margin: left;
+    display: block;
+    width: 90%;
+    border: 3px solid grey;
+    border-radius: 1px;
+    padding: 60px;
+    top: 50%;
+   font-family: courier;
+
+}
+.button {
+    background-color: pink;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text], input[type=password],input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background:white;
+}
+#main {
+                width: 95%; /*Set to whatever*/
+                height: 5%;/*Set to whatever*/
+            }
+
+h1{
+color:Navy;
+
+}
+</style>
+<body id="main">
+<h1>Inference on HealthCare - Disease Onset Machine Learning model</h1><button  class="button" type="button" onclick="openWin2()"><strong>LOGOUT</strong></button><br><br>
+
+<form action="webregistration.php"  method = "POST">
+<div class="container">
+    <label for="uid"><b>Patient-Name</b></label>
+    <input type="text" placeholder="Name" name="name" required><br><br>
+
+<label for="mrdelay"><b>Enter the MR delay of the patient</b></label>
+    <input type="text" placeholder="MR delay" name="MR" required><br><br>
+
+<label for="educ"><b>Enter the years of Education the patient has?</b></label>
+    <input type="text" placeholder="Education" name="educ" required><br><br>
+
+<label for="soc"><b>Enter the socio economic status of the patient</b></label>
+<select class="div" >
+ <option value="volvo">Selct--</option>
+ <option value="volvo">High</option>
+  <option value="saab">Above Average</option>
+ <option value="volvo">Average</option>
+  <option value="saab">Below Average</option>
+ <option value="volvo">Low</option>
+
+ <br><br>
+</select>
+
+
+<label for="mmse"><b>Enter the Mini-Mental State Examination Score given by the doctor </b></label>
+  <select class="div" >
+ <option value="volvo">Selct--</option>
+ <option value="volvo">No Cognitive Impairement</option>
+  <option value="saab">Mild Cognitive Impairement</option>
+ <option value="volvo">Severe Cognitive Impairement</option>
+
+
+</select><br><br>
+
+
+<label for="etiv"><b>Enter the estimated intracranial volume as reported by the doctor</b></label>
+    <input type="text" placeholder="ETIV" name="etiv" required><br><br>
+
+
+<label for="NWBV"><b>Enter the normalized whole brain volume as reported by the doctor</b></label>
+    <input type="text" placeholder="NWBV" name="NWBV" required><br><br>
+
+
+<label for="gender"><b>Select the patient's gender</b></label>
+    <select class="div">
+  <option value="volvo">Select--</option>
+  <option value="volvo">Male</option>
+  <option value="saab">Female</option>
+
+
+</select><br><br>
+
+<label for="age"><b>Select the age group of the patient</b></label>
+    <input type="text" placeholder="Age Group" name="age" required><br><br>
+
+
+<label for="decr"><b>Enter the average percent decrease in whole brain volume recorded over multiple visits</b></label>
+    <input type="text" placeholder="MR delay" name="MR" required><br>
+
+<button  class="button" type="button" onclick="openWin()">Submit</button>
+
+<!--<button  class="button"type="button" onclick="openWin()">submit</button> -->
+<button  class="button" type="button" onclick="openWin1()">Cancel</button><br>
+
+
+
+  </div>
+
+
+
+</form>
+</body>
+<script>
+function openWin() {
+    window.open("");
+}
+
+function openWin1() {
+    window.open("1.html");
+}
+function openWin2() {
+    window.open("main.html");
+}
+</script>
+</html>

@@ -1,0 +1,77 @@
+<html>
+<style>
+.button {
+    background-color:black;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+     height:50px;
+    width:100px;
+    margin-left: 0%;
+color:white;
+
+    top:50%;
+    left:50%;
+font-weight: bold;
+
+
+}
+.container{
+margin: left;
+    display: block;
+    width: 95%;
+    border: 3px solid grey;
+    border-radius: 1px;
+    padding: 60px;
+    top: 50%;
+   font-family: courier;
+   font-size:20px;
+
+
+#main {
+                width: 95%; /*Set to whatever*/
+                height: 5%;/*Set to whatever*/
+            }
+}
+ h1 { color: purple; }
+  h2 { color: #FF7F50; }
+
+
+</style>
+<body id="main">
+<div class="container">
+<h1>DATASET DESCRIPTION</h1>
+    We will be using the longitudinal MRI data from OASIS Brains.org.<br>
+    The dataset consists of a longitudinal MRI data of 373 subjects aged 60 to 96.<br>
+    Each subject was scanned at least once.<br>
+
+<h2>Demographics Information</h2><br>
+
+<b>M.F - </b>Gender<br><br>
+<b>Hand - </b>Handedness<br><br>
+<b>Age- </b> Age group of 60-96<br><br>
+<b>EDUC -</b> Years of education<br><br>
+<b>SES -</b> Socioeconomic status as assessed by the Hollingshead Index of Social Position and classified into categories from 1 (highest status) to 5 (lowest status)<br><br>
+
+<h2>Clinical Information</h2><br>
+
+<b>MMSE - </b>Mini-Mental State Examination score (range is from 0 = worst to 30 = best)<br><br>
+<b>CDR -</b> Clinical Dementia Rating (0 = no dementia, 0.5 = very mild AD, 1 = mild AD, 2 = moderate AD)<br><br>
+
+<h2>Derived Anatomic Volumes<br></h2>
+<b>eTIV -</b> Estimated total intracranial volume, mm3<br><br>
+<b>nWBV - </b>Normalized whole-brain volume, expressed as a percent of all voxels in the atlas-masked image that are labeled as gray or white matter by the automated tissue segmentation process<br><br>
+<b>ASF -</b> Atlas scaling factor (unitless). Computed scaling factor that transforms native-space brain and skull to the atlas target (i.e., the determinant of the transform matrix)<br><br>
+
+<br>
+</body>
+<!--<div><button  class="button" type="button" onclick="openWin()"><strong>NEXT</strong></button><br></div>-->
+<script>
+function openWin() {
+    window.open("http://localhost:8888/notebooks/Desktop/sem%202/ML%202%20PROJECT/EDA%20DEMENTIA!!%20-%20Copy.ipynb ");
+}
+</script>
+

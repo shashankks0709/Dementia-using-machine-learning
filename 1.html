@@ -1,0 +1,85 @@
+<html>
+<style>
+.button {
+    background-color:pink;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+     height:60px;
+    width:500px;
+    margin-left: 40%;
+color:black;
+
+    top:50%;
+    left:50%;
+font-weight: bold;
+font-size:20px;
+
+
+}
+#main {
+                width: 95%; /*Set to whatever*/
+                height: 5%;/*Set to whatever*/
+            }
+.container{
+margin: left;
+    display: block;
+    width: 95%;
+    border: 3px solid grey;
+    border-radius: 1px;
+    padding: 60px;
+    top: 50%;
+   font-family: courier;
+   font-size:20px;
+
+
+}
+
+</style>
+<body id="main">
+
+<div class="container">
+<h1>Introduction to HealthCare -Detection of  Dementia</h1>
+<h2>What are we trying to solve:</h2>
+<p>Dementia is a general term for a decline in mental ability severe enough to interfere with daily life. Memory loss is an example. Dementia is not a specific disease. Its an overall term that describes a group of symptoms associated with a decline in memory or other thinking skills severe enough to reduce a persons ability to perform everyday activities. In this use case, we propose to develop a sound model that can help clinicians detect dementia for proactive identification. Considering that we have to predict whether a patient might have dementia or not, this is a binary classification problem.
+
+
+
+<h2>Machine Learning Algorithm:</h2>
+<p>Powerful Random forest model is used to model the solution for this analysis.<br><br>
+* Random Forest Classifier is an implementation  designed for speed and performance.<br>
+* Random Forest Classifier dominates structured or tabular datasets on classification and predictive modeling problems.</p>
+</div>
+
+<br><br>
+
+
+
+<div><button  class="button" type="button" onclick="openWin()"><strong>DATA DESCRIPTION</strong></button><br></div>
+<div><button  class="button" type="button" onclick="openWin1()"><strong>DATA PREPROCESSING</strong></button><br></div>
+<div><button  class="button" type="button" onclick="openWin2()"><strong>EXPLORATATORY DATA ANALYSIS</strong></button><br></div>
+<div><button  class="button" type="button" onclick="openWin3()"><strong>MODEL BUILDING</strong></button><br></div>
+<div><button  class="button" type="button" onclick="openWin4()"><strong>DEMENTIA DETECTION</strong></button><br></div>
+    </body>
+<script id="main">
+function openWin() {
+    window.open("http://localhost:63342/dementia%202/templates/3.html?_ijt=p8eb5u05va7c3uvtrs67gafr2g ");
+}
+function openWin1() {
+    window.open("http://localhost:8888/notebooks/DATA%20PREPROCESSING.ipynb");
+}
+function openWin2() {
+    window.open("http://localhost:8888/notebooks/EDA.ipynb");
+}
+function openWin3() {
+    window.open("http://localhost:8888/notebooks/Model%20building.ipynb");
+}
+function openWin4() {
+    window.open("http://localhost:8888/notebooks/Predict%20.ipynb");
+}
+</script>
+
+</html>
