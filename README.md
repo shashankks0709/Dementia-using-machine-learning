@@ -47,6 +47,10 @@ disease, physicians are less able to slow the progression and minimize debilitat
 changes of the dementia. A simple, method for detecting dementia early in the disease's course
 would help get patients to seek early evaluation and treatment.
  
+ ✅Tools Used :
+ Jupyter Notebook,
+ Pycharm
+ 
  ✅Purpose of the Project:
 Early detection and correct diagnosis can lead to disease-retarding therapies which can slow
 disease progression and reduce patient and caregiver stress and morbidities. After excluding
