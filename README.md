@@ -1,6 +1,6 @@
 # Dementia-using-machine-learning
 Detection of Dementia using machine learning and python 
-✔Abstract
+✅Abstract :
 Dementia is a neurodegenerative disorder, which is one of the most common among older
 people, it constitutes one of the diseases with great social impact in Europe and America. The
 progress of medical diagnosis using magnetic resonance imaging (MRI) is widely used for
@@ -22,7 +22,7 @@ demographic and clinical information from patients, combined with morphometric
 information of areas of the brain, are input variables useful to train an ANN of diagnosis of
 dementia with 83 % of reliability, and in this way, help to the early diagnosis of Dementia.
 
-✔Introduction
+✅Introduction:
 Dementia is a global health issue. Dementia is a state describing some group of symptoms which
 can occur when few groups of cells of brain stop working in an appropriate manner. Dementia
 normally occurs inside the particular regions of the brain that influences the way one can think,
@@ -45,7 +45,8 @@ to the patient's social embarrassment about having a memory problem. At this poi
 disease, physicians are less able to slow the progression and minimize debilitating behavioral
 changes of the dementia. A simple, method for detecting dementia early in the disease's course
 would help get patients to seek early evaluation and treatment.
- ✔Purpose of the Project
+ 
+ ✅Purpose of the Project:
 Early detection and correct diagnosis can lead to disease-retarding therapies which can slow
 disease progression and reduce patient and caregiver stress and morbidities. After excluding
 delirium and depression, two forms, the Mini mental state examination( MIMSE ) can be used to
@@ -61,7 +62,7 @@ undiagnosed So having model that can take a vast amount of data, and automatical
 patients with possible dementia, to facilitate targeted screening, could potentially be very useful
 and help improve diagnosis rates.
 
-✔Scope
+✅Scope:
 The model proposes a methodology for the diagnosis of dementia based on Alzheimer’s disease
 combining imaging processing, machine learning(j48),artificial intelligence techniques by
 creating an artificial neural network (ANN) of classification based on architecture Multilayer
@@ -77,7 +78,8 @@ results obtained with the ANN, would be able to demonstrate that the demographic
 information from patients, combined with morphometric information of areas of the brain, are
 input variables useful to train an ANN of diagnosis of dementia with 83 % of reliability, and in
 this way, help to the early diagnosis of Dementia.
-✔Existing System
+
+✅Existing System:
 With the expected growth in dementia prevalence, the number of specialist memory clinics may
 be insufficient to meet the expected demand for diagnosis. Furthermore, although current ’gold
 standards’ in dementia diagnosis may be effective, they involve the use of expensive
@@ -91,12 +93,14 @@ dataset. And further, Attribute Selection technique is also applied using CFSSub
 attributes included in the OASIS dataset are age, sex, education, socioeconomic status, minimental state examination, 
 clinical dementia rating , atlas scaling factor, estimated total
 intracranial volume, and normalized whole-brain volume.
-✔Problem Statement
+
+✅Problem Statement:
 The aim of this study is to develop a machine learning-based model that could be used in general
 practice to detect dementia from collected data and brain MRI images. The model would be a
 useful tool for identifying people who may be living with dementia but have not been formally
 diagnosed or have a proclivity towards the disease.
-✔Summary
+
+✅Summary:
 So having model that can take a vast amount of data, and automatically identify patients with
 possible dementia, to facilitate targeted screening, could potentially be very useful and help
 improve diagnosis rates. Hence with machine learning techniques like Multilayer perceptron and
