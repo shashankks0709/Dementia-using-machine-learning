@@ -1,5 +1,6 @@
 # Dementia-using-machine-learning
 Detection of Dementia using machine learning and python 
+
 ✅Abstract :
 Dementia is a neurodegenerative disorder, which is one of the most common among older
 people, it constitutes one of the diseases with great social impact in Europe and America. The
